@@ -38,7 +38,7 @@ public class JsonController {
         int method = Request.Method.GET;
 
 
-        String test = "http://10.0.2.2:8983/solr/sfsu/select?indent=on&q=" + Uri.encode(query) + "&wt=json&rows=10&fl=dc_title_s,id";
+        String test = "http://10.0.2.2:8983/solr/sfsu/select?indent=on&q=" + Uri.encode(query) + "&wt=json&rows=10&fl=dc_title_s,id&omitHeader=true";
         String url = test;
 
 
